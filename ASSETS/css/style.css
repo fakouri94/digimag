@@ -1,0 +1,128 @@
+html,body{
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: right;
+    font-family: "yekan";
+}
+
+
+body{
+    background-color: #f7f8fa;
+}
+header{
+    background-color: #ff9b9f;
+}
+.header-content{
+    background-color: #fff;
+    height: 96px;
+
+}
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+
+}
+
+header .header_menu{
+    color: #7f848f;
+    background-color: #f8f8f8 ;
+    border-top: 4px solid #000;
+    height: 35px;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+header .header_menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: inline-block;
+}
+header .header_menu ul li{
+    display: inline-block;
+    float: right;
+    margin-left: 30px;
+}
+.header_menu ul li a{
+    text-decoration: none;
+    color: #7f848f;
+}
+header .header_menu ul li a:hover{
+    text-decoration: none;
+    color: #b33a3a;
+}
+header .header-content form {
+    float: right;
+    direction: rtl;
+    margin-top: 28px;
+    display: flex;
+
+}
+.logo img{
+    float: left;
+    margin-top: 20px;
+    display: flex;
+   /** margin-left: -136px;**/
+}
+
+form input {
+    background-color: white;
+    height: 39px;
+    border-color: #c9d1d7;
+    border-radius: 2px;
+    overflow: hidden;
+    width: 540px;
+    padding: 0px;
+
+}
+.menu{
+    height: 50px;
+    background-color: #f8f8f8 ;
+    margin-top: -12px;
+    position: relative;
+    font-size: 15px;
+    line-height: 2.5;
+    color: #333;
+    border-bottom: 1px solid #d6d8d9;
+}
+header .menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: absolute;
+
+}
+header .menu ul li{
+    float: right;
+    margin-left: 30px;
+    ;
+}
+header .menu ul li a{
+    text-decoration: none;
+     color: #333333;
+}
+
+header .menu li ul{
+    display: none;
+    width: 190px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+header .menu li ul li{
+    border-top: 1px solid #e7e7e7;
+    float: none;
+
+}
+header .menu li ul li a{
+
+    float: none;
+}
+header .menu li ul li:hover{
+    background-color: #f8f8f8;
+}
+
+header .menu li:hover ul{
+    display: block;
+}
