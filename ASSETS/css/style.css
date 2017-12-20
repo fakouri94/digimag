@@ -43,7 +43,8 @@ header .header_menu ul{
 header .header_menu ul li{
     display: inline-block;
     float: right;
-    margin-left: 30px;
+    margin-left: 35px;
+
 }
 .header_menu ul li a{
     text-decoration: none;
@@ -53,28 +54,44 @@ header .header_menu ul li a:hover{
     text-decoration: none;
     color: #b33a3a;
 }
+header .header_menu i{
+    padding: 3px;
+}
 header .header-content form {
     float: right;
     direction: rtl;
     margin-top: 28px;
     display: flex;
+    position: relative;
 
 }
 .logo img{
     float: left;
     margin-top: 20px;
     display: flex;
-   /** margin-left: -136px;**/
+   margin-left: -140px;
 }
 
-form input {
-    background-color: white;
-    height: 39px;
-    border-color: #c9d1d7;
-    border-radius: 2px;
+header .header-content form input {
+    background-color: #fff;
+    height: 35px;
     overflow: hidden;
-    width: 540px;
+    width: 536px;
     padding: 0px;
+    border-radius:2px;
+
+
+
+}
+header .header-content form button{
+    height: 39px;
+    width: 39px;
+    height: 39px;
+    background: #9da3b1;
+    position: absolute;
+    margin-right: 500px;
+    color: #fff;
+    cursor: pointer;
 
 }
 .menu{
