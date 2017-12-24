@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width-device, initial-scale=1.0">
     <title>Digi Mag</title>
     <link href="ASSETS/css/style.css" rel="stylesheet" type="text/css">
     <!--<link href="css/bootstrap.css" rel="stylesheet">-->
     <link href="ASSETS/css/flexboxgrid.min.css" rel="stylesheet">
     <link href="ASSETS/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="ASSETS/css/responsive.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
@@ -24,12 +26,21 @@
 
         <div class="header-content">
             <div class="container">
-            <form  action="#" method="get">
-                <input id="search-input" type="text" name="search" placeholder="جستجو">
-                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-                <div class="logo">
-                    <img src="ASSETS/IMAGES/digikala-mag-logo.png" alt="digikala-mag-logo">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="logo">
+                            <img src="ASSETS/IMAGES/digikala-mag-logo.png" alt="digikala-mag-logo">
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12 first-md">
+                        <form  action="#" method="get">
+                            <input id="search-input" type="text" name="search" placeholder="جستجو">
+                            <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+
+
                 </div>
             </div>
         </div>
